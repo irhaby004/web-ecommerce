@@ -1,0 +1,108 @@
+html, body { height: 100%;}
+body {background-color: #eeeeee;}
+.login-page { padding-top: 40px; }
+.login-page .panel-heading { background: rgba(0, 0, 0, 0) linear-gradient(40deg, #45cafc, #303f9f) repeat scroll 0 0; color:#fff;}
+#wrapper {min-height: 100%;   position: relative;}
+#content {padding-bottom: 100px;}
+nav.navbar {border:0; box-shadow: none;}
+.left-side {box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);  top:0; bottom: 0; display: block; left: 0; overflow: auto; padding: 0; position: absolute; background-image: url('../img/sidebar-1.jpg'); background-position:center center; background-size:cover; z-index: 100;}
+.left-side .menu-logo {padding: 15px;}
+.left-side .menu-logo a {  color: #3c4858;  display: block;  font-size: 18px;  font-weight: 400;  line-height: 30px; padding: 5px 0; text-align: center;  text-transform: uppercase; border-bottom: 1px solid #d3d3d3; padding-bottom: 20px;}
+.left-side .nav i { float: left; float: left;   font-size: 24px;  line-height: 30px;  margin-right: 15px;  text-align: center; width: 30px;}
+.left-side .nav p {font-size: 14px; line-height: 30px; margin: 0; text-align: left; text-transform: capitalize;}
+.left-side ul.nav li a {box-shadow: none;}
+.left-side ul.nav li a p, .left-side ul.nav li a i {color:#a9afbb;} 
+.left-side ul.nav li.active a p, .left-side ul.nav li.active a i {color:#fff;} 
+.left-side ul.nav li.active a {background-color: #a6c;  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);}
+.left-side ul.nav .bottom { bottom: 10px;  position: absolute;  width: 100%;}
+.right-side {padding-top: 10px;}
+.right-side nav.navbar .navbar-brand {color:#333;}
+.right-side ul.nav li a {color:#333;}
+.card {background-color: #fff;}
+.card-body {padding: 20px;}
+.card-body h3 {text-align: left;}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {width: auto !important;}
+.btn.dropdown-toggle {margin: 0; padding: 10px;}
+.md-form label {font-size:14px; }
+.bootstrap-switch-secondary {background-color: #a6c; color:#fff;}
+.label-secondary {background-color: #a6c; color:#fff;}
+.element-label-text {margin-left: 45px;}
+label.alone {width: 40px; word-break: break-all;}
+.bordered-div {border-bottom:1px solid #ccc; padding-bottom: 20px;}
+.upload-wrap { position: relative; margin-left: -5px;}
+.upload-btn {  position: absolute; left: 0;  opacity: 0;  top:0; width:150px; height: 50px;  z-index: 12; cursor: pointer;} 
+.upload-wrap .file-name {display:none; border: 1px solid #ccc; padding: 10px;}
+.right-side-wrapper {padding-top: 50px;}
+.btn-round {border-radius: 30px;   line-height: 1em;  padding: 12px;}
+.btn-white {background-color: #ffffff;    color: #999999;}
+.btn-white i {color:#999; font-size:22px;}
+.nav-bar-search {margin-top: -7px;}
+.locale-container {display: none;}
+.btn.btn-outline-secondary.active {background-color: #a6c; color:#fff !important;}
+.available-translations span {color:#757575;}
+.alert-top { left: 50%; margin-left: -125px; position: absolute; top: 20px; width: 250px; text-align: center;}
+.alert.alert-danger {background-color: #f55a4e;    border-radius: 3px;    box-shadow: 0 12px 20px -10px rgba(244, 67, 54, 0.28), 0 4px 20px 0 rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(244, 67, 54, 0.2);    color: #ffffff; border-color: transparent;}
+.alert.alert-success {background-color: #5cb860;    border-radius: 3px;    box-shadow: 0 12px 20px -10px rgba(76, 175, 80, 0.28), 0 4px 20px 0 rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(76, 175, 80, 0.2);    color: #ffffff; border-color: transparent;}
+.card.card-cascade.narrower .view {margin-left: 4%; margin-right: 4%; text-align: center;}
+.card.card-cascade .view {border-radius: 4px;}
+.card-footer {border-top: 1px solid rgba(0, 0, 0, 0.125); padding: 5px;}
+.overlay img {transition: all 0.2s linear 0s;display: inline-block;  position: relative; height: 200px; text-align: center;}
+.card .card-title a {overflow: hidden; height: 20px; display: inline-block;}
+.card { margin-bottom: 20px; }
+.card .price {height: 20px; overflow: hidden; margin-bottom: 5px;}
+.card .card-text {overflow: hidden; height: 40px;}
+.hm-white-slight {box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);} 
+.gallery-images div {display: inline-block; position:relative;}
+.gallery-images div img {height: 100px;}
+.gallery-images div a {position:absolute; right:0; top:0; background-color: #fff; color:#a6c;}
+.card .table-name { box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin-bottom: 50px; margin-top: -30px; padding: 10px;}
+.card .table-name .left-btns {float: left;}
+.card .table-name .right-btns {float: right;}
+.card .table-name .btn {padding: 10px;}
+.card .table-name .header-txt {line-height: 50px;}
+.card.categories {padding: 20px;}
+.btn-rounded {border-radius: 20px;}
+table.table td, table.table th {padding: 20px !important;}
+#modalAddEditCategory .modal-header {border: medium none; border-radius: 3px;  margin: 0;  padding: 1.5rem;  text-align: center; display: inline-block; width:100%; margin-top: -30px; margin-bottom: 20px;}
+#modalAddEditCategory .modal-content {padding-left: 10px; padding-right: 10px;}
+#modalAddEditCategory .close {position: absolute; right: -15px; top: -15px;}
+#modalAddEditCategory .picker-left {margin-left: 90px;}
+.bg-secondary {background-color: #a6c;}
+.text-secondary {color:#a6c;}
+.text-secondary:hover {color:#9841c4;}
+.menu-btn-xs {display: none;}
+.btn.purple-gradient {background: rgba(0, 0, 0, 0) linear-gradient(40deg, #ff6ec4, #7873f5) repeat scroll 0 0;   transition: all 0.5s ease 0s;}
+.bootstrap-tagsinput {border:0 !important; box-shadow: none !important;}
+.add-slider { border-bottom: 1px solid #dcdbdb; padding-bottom: 15px; margin-bottom: 15px;}
+.carousel-sliders .slide { position: relative;  margin-bottom: 20px; }
+.carousel-sliders .slide .position {position: absolute; top:10px; left:10px; background-color: #ffffff; color:#333; height: 50px;  width: 50px; text-align: center; line-height: 50px;  border-radius: 50%;}
+.carousel-sliders .slide img {margin-bottom: 5px;}
+.carousel-sliders .slide .link {background-color: #fff; display: block; padding: 10px; border:1px solid #d7d7d7; font-size:12px; }
+.carousel-sliders .slide .link a {color:#333;}
+.carousel-sliders .slide .delete {position: absolute; right:10px; top:10px;}
+.orders-page .tr-more {background-color: #f2f2f2; display: none;}
+.orders-page .fa-chevron-up {display: none;}
+.orders-page .tr-more ul li { margin-bottom: 15px; }
+.orders-page .tr-more .product { margin-bottom: 10px; padding-bottom: 10px; border-bottom:1px solid #e3dede;}
+.orders-page .tr-more .product a {color:#333333;}
+.orders-page .tr-more .product img {float:left; width:100px; margin-right: 5px;}
+.orders-page .tr-more .product .name {display: block; font-size:12px; margin-bottom: 10px;}
+.orders-page .tr-more .product .quantity {font-size: 16px;}
+.orders-page .fast-orders h2 {text-transform: uppercase; font-size:20px;}
+footer {position: absolute; bottom:0; border-top: 1px solid #e7e7e7; padding: 15px; width:100%;}
+footer .nav li {display: inline-block;}
+footer .nav li a {text-transform: uppercase;color:#333; font-size: 13px;}
+footer .nav li.in-right {float:right;}
+
+@media screen and (max-width: 991px) {
+    table.table td, table.table th {padding: 15px !important;}
+}
+
+@media screen and (max-width: 767px) {
+    .left-side {display: none;}
+    .left-side .nav p {font-size:12px;}
+    .menu-btn-xs {display: block;}
+    .overlay img {height: auto;}
+    table.table td, table.table th {padding: 10px !important;}
+    .orders-page .table-responsive-xs {overflow-x:auto}
+}
